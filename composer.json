@@ -1,0 +1,24 @@
+{
+  "name": "beapi/wp-cli-media-vault",
+  "description": "Media Vault CLI command",
+  "type": "wp-cli-package",
+  "homepage": "https://github.com/beapi/wp-cli-media-vault",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.4"
+  },
+  "authors": [
+    {
+      "name": "Be API",
+      "email": "technique@beapi.fr"
+    },
+    {
+      "name": "Nicolas JUEN",
+      "email": "njuen@beapi.fr"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "files": [ "wp-cli-media-vault.php" ]
+  },
+}
